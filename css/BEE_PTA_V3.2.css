@@ -1,0 +1,203 @@
+/*  ============================================================   */
+/*  ===========  General Style Stuff  ==========================   */
+/*  ============================================================   */
+address, blockquote, body, dd, div, dl, dt, fieldset, form,
+frame, iframe, frameset, h1, h2, h3, h4, h5, h6, noframes,
+ol, p, ul, center, dir, hr, menu, pre {display: block;}
+head {display: none;}	
+body {
+    background: #bbbbbb; /* gray*/
+    /* background-image:url(Star_On_Sign_white.gif);*/
+    background-image:url(brick_small.jpg);
+    width:100%;
+    margin: 0 40 0 0;
+    padding: 0;
+    height: auto;
+    
+    font-family:arial,sans-serif;
+    color: black;
+    
+    font-size:14px;
+    font-weight: normal;
+    line-height: 1.13em;
+}
+blockquote {font-weight: normal;}
+li.nobull {list-style-type:none;}
+b {font-weight:bold;}
+strong {color:red;
+        font-weight:bolder;}
+strong b {color:red;
+        font-weight:bolder;}
+
+em {font-size: larger;}
+h1 {font-size: 2em;
+    line-height: 1.13em;
+    font-weight:bold;
+}
+h1 b {font-weight:bolder;}
+h2 {font-size: 1.5em;}
+h3 {font-size: 1.17em;}
+h4 {font-size: 1.12em;}
+h5 {font-size: 0.90em;}
+h6 {font-size: 0.85em;}
+
+div#none {display:none;}
+
+a:link {
+    color: black }
+a:visited {
+    color: blue }
+a:hover {
+    color: red }
+
+#FishByte {color:red; 
+text-decoration:none;
+a:link {
+    color: red }
+a:visited {
+    color: red }
+a:hover {
+    color: red }
+}
+
+/*  ==========================================================================   */
+/*  ===========  The center column division, all stuff in here  ==============   */
+/*  ==========================================================================   */
+div#centermain {
+/*background: #66b7ff; */
+background-color: transparent;
+/*background-color: #ffffff;*/
+    width: 1000px;
+    height: auto;
+    margin: 0 auto 0 auto;
+    padding: 0 0 0 0;
+}
+
+/*  ========================================================================== */
+/*  ============  Page layout division stuff   ==============================  */
+/*  ========================================================================== */
+
+/*  ========================================================================== */
+/*    =========  HEADER  =========================================*/
+/*  ============================================================================= */
+div#header {
+    //background: #25af9c; /*  opposite to star color*/
+    //background: #262faa; /* complimentary blue */
+    background: #66b7ff; /* #747ced;  complimentary blue */
+    width: 1000px;
+    float:right;
+    margin: 0;
+    
+    height: 108px;
+    
+    font-family:Expose,georgia,cursive;
+    
+}
+
+div#header p {
+    text-align: center}
+
+div#header img#logo {
+    float:right;
+    height: 108px;
+    /*width: 650px;*/
+    width: 850px;
+    margin-right:0px;
+}
+
+div#header img#corn {
+    /* display:block; */
+    align:left;
+    height: 108px;
+    float:left;
+    margin-left:-100px;
+    clear:left;
+}
+
+
+
+
+/*  ========================================================================== */
+/* =====  Everything related to the left column ============  */
+/*  ========================================================================== */
+div#leftcol {
+   background: #66b7ff; /* #747ced; complimentary blue */
+    margin-top:0;
+    padding:0 20px 0 20px;
+    width: 160px;
+    height: 2035px;
+    border:none;
+    border-color:black;
+    clear:none;
+    float:left;
+}
+
+div#leftcol li {
+    list-style-type:none;
+    line-height:1.2em;
+    
+}
+
+div#leftcol ul {
+	margin-left:0;
+	padding:0;
+	    
+    border:none;
+    
+    }
+    
+div#leftcol ul ul {
+	margin-left:25px;
+	padding:0;
+	    
+    border:none;
+    
+    } 
+    
+div#leftcol img.credw {width:10px;margin-left:10px;}
+div#leftcol img.credh {width:40%;margin-left:5px;}
+
+
+
+div#leftcol a.clear:link {color:#66b7ff;}
+div#leftcol a.clear:visited {color:#66b7ff;}
+div#leftcol a.clear:hover {color:#66b7ff;}
+div#leftcol small {font-size:12px;}	
+
+/*  ========================================================================== */
+/* =====  Everything related to the Main Content ============  */
+/*  ========================================================================== */
+div#content {
+    background: #ffffff;
+    float: right;
+    margin:0;
+    
+    margin-bottom:10px;
+    padding:0 0px 0 0px;
+    width: 800px;
+    height: auto;
+    
+    border:none;
+    
+    overflow:hide;
+}
+
+/*  ========================================================================== */
+/*  =================  miscellaneaous stuff        =========================== */
+/*  ========================================================================== */
+td.date {width:120px;font-size:14px;text-align:left;}
+td {font-size:14px;text-align:left;}
+
+div#line img {height:35px;}
+
+
+ul#goal {list-style-type: none;}
+ul#goal li p {padding-left:20px;text-indent: -20px;}
+
+/*  ========================================================================== */
+/*  =================  The iframe??       =========================== */
+/*  ========================================================================== */
+
+div iframe img {
+    float:right;
+}
